@@ -30,7 +30,6 @@
 }
 
 .inventory-text {
-  /* Make these spans inline-block so we can specify a width */
   width: 200px;
   padding: 0 10px;
 }
