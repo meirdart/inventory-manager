@@ -1,0 +1,9 @@
+{
+  "name": "inventory",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Miles Gullingsrud",
+  "dependencies": {
+    "express": "^4.13.0"
+  }
+}

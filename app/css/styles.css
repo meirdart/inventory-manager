@@ -1,0 +1,55 @@
+/*What does the page look like?*/
+
+.sloth {
+  height: 200px;
+
+  /* margin is external space outside the element */
+  margin-bottom: 20px;
+
+  /* Make this display: block so we can center it using margin-left & margin-right */
+  display: block;
+
+  /* These margins center the element */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inventory-container {
+  background-color: lightgray;
+}
+
+.inventory-row {
+  /**
+   * padding is internal space between the edges of the element and its contents
+   * padding: top/bottom, left/right
+   **/
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inventory-text {
+  /* Make these spans inline-block so we can specify a width */
+  width: 200px;
+  padding: 0 10px;
+}
+
+.inventory-text:first-child {
+  padding-left: 0;
+}
+
+.inventory-quantity {
+  width: 50px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.inventory-quantity-input {
+  width: 100%;
+  text-align: center;
+}
+
+.inventory-quantity:last-child {
+  padding-right: 0;
+}
